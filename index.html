@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development</title>
+    <!--Flat Icons-->
+    <link rel="shortcut icon" href="https://www.flaticon.com/svg/static/icons/svg/2972/2972291.svg" type="image/x-icon">
+    <!--Bootstrap & Styles-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&family=Staatliches&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/0439a0b3ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!----------------------------------NAVBAR------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="./index.html">Game Development</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="links" role="button" data-toggle="dropdown">
+                        Links
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" target="_blank" href="https://unity.com/">Unity</a>
+                        <a class="dropdown-item" target="_blank" href="https://www.unrealengine.com/en-US/">Unreal
+                            Engine</a>
+                        <a class="dropdown-item" target="_blank" href="https://www.cryengine.com/">CRYENGINE</a>
+                    </div>
+                </li>
+                <li class="nav-iteam">
+                    <a class="nav-link" href="https://www.udemy.com/courses/development/game-development/"
+                        target="_blank">Learn</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----------------------------------INTRO------------------------------------------->
+
+    <div class="container-fluid">
+        <div class="row intro">
+            <video playsinline autoplay muted loop poster="back.jpg" id="bgvid">
+                <source src="./assets/back (1).mp4" type="video/mp4">
+            </video>
+            <div class="col-lg-6 col-md-12">
+                <h1>Engines For Development</h1>
+                <p>
+                    This site will tell you about these popular and useful game engines: <br>
+                    <ul>
+                        <li>Unity</li>
+                        <li>Unreal Engine</li>
+                        <li>CRYENGINE</li>
+                    </ul>
+                    These engine are very popular for 2D and 3D Games, most AAA titles were also made using these
+                    engines. You can get these engine yourself by going to the following links.
+                </p>
+                <p>
+                    <a target="_blank"
+                        href="https://store.unity.com/?_ga=2.208480210.1744654348.1603559629-269760822.1603559629#plans-individual">
+                        <button type="button" class="btn btn-outline-light btn-lg link-button">
+                            <i class="fab fa-unity"></i> Unity
+                        </button>
+                    </a>
+                    <a href="https://www.unrealengine.com/en-US/get-now" target="_blank">
+                        <button type="button" class="btn btn-outline-light btn-lg link-button">
+                            <img src="https://img.icons8.com/ios/50/000000/unreal-engine--v1.png" width="22.5px"
+                                width="21px" />
+                            Unreal Engine
+                        </button>
+                    </a>
+                    <a href="https://www.cryengine.com/download" target="_blank">
+                        <button type="button" class="btn btn-outline-light btn-lg link-button">
+                            <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/cryengine_icon_138710.png"
+                                width="22.5" height="21">
+                            CRYENGINE
+                        </button>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------INFO------------------------------------------->
+
+    <div class="container-fluid info">
+        <div class="row discription align-items-center">
+            <div class="col-lg-6">
+                <img class="example-img"
+                    src="https://blogs.unity3d.com/wp-content/uploads/2014/03/Gallery-Pictures-Interior.jpg" />
+            </div>
+            <div class="col">
+                <h2>Unity</h2>
+                <p>
+                    Unity is a cross-platform game engine developed by Unity Technologies, first announced and released
+                    in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine. As
+                    of 2018, the engine had been extended to support more than 25 platforms. The engine can be used to
+                    create three-dimensional, two-dimensional, virtual reality, and augmented reality games, as well as
+                    simulations and other experiences. The engine has been adopted by industries outside video
+                    gaming, such as film, automotive, architecture, engineering and construction.
+                </p>
+                <a href="https://unity.com/products/unity-platform?_ga=2.265701767.92800100.1603806317-298560708.1603806317"
+                    target="_blank">
+                    <button type="button" class="btn btn-outline-light btn-lg link-button">Features</button>
+                </a>
+            </div>
+        </div>
+        <div class="row discription align-items-center">
+            <div class="col-lg-6">
+                <img class="example-img" src="https://i.ytimg.com/vi/adoQgoETRsQ/maxresdefault.jpg" />
+            </div>
+            <div class="col">
+                <h2>Unreal Engine</h2>
+                <p>
+                    The Unreal Engine is a game engine developed by Epic Games, first showcased in the 1998 first-person
+                    shooter game Unreal. Although initially developed for first-person shooters, it has been used in a
+                    variety of other genres, including platformers, fighting games, MMORPGs, and other RPGs. Written in
+                    C++, the Unreal Engine features a high degree of portability, supporting a wide range of platforms.
+                </p>
+                <a href="https://www.unrealengine.com/en-US/industry/more-uses" target="_blank">
+                    <button class="btn btn-outline-light btn-lg link-button">Features</button>
+                </a>
+            </div>
+        </div>
+        <div class="row discription align-items-center">
+            <div class="col-lg-6">
+                <img class="example-img"
+                    src="https://www.cryengine.com/files/wysiwyg/106985b5484828d62f75ae32a806787e.jpg" />
+            </div>
+            <div class="col">
+                <h2>CRYENGINE</h2>
+                <p>
+                    CryEngine (officially stylized as CRYENGINE) is a game engine designed by the German game developer
+                    Crytek. It has been used in all of their titles with the initial version being used in Far Cry, and
+                    continues to be updated to support new consoles and hardware for their games. It has also been used
+                    for many third-party games under Crytek's licensing scheme, including Sniper: Ghost Warrior 2 and
+                    SNOW. Warhorse Studios uses a modified version of the engine for their medieval RPG Kingdom Come:
+                    Deliverance. Ubisoft maintains an in-house, heavily modified version of CryEngine from the original
+                    Far Cry called the Dunia Engine, which is used in their later iterations of the Far Cry series.
+                </p>
+                <a href="https://www.cryengine.com/features" target="_blank">
+                    <button class="btn btn-outline-light btn-lg link-button">Features</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------GAMES------------------------------------------->
+
+    <div class="container-fluid games">
+        <h3>Popular Games</h3>
+        <div id="games-slide" class="carousel slide" data-ride="carousel" data-pause="hover" data-wrap="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row game-slide">
+                        <div class="col-lg-3 game-img w-100 h-100">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Firewatch_cover.jpg" height="300px"
+                                width="300px">
+                        </div>
+                        <div class="col">
+                            <h4>FireWatch</h4>
+                            <p>Firewatch is an adventure game developed by Campo Santo and published by the developer in
+                                partnership with Panic. The game was released in February 2016 for Microsoft Windows, OS
+                                X,
+                                Linux, and PlayStation 4, for Xbox One in September 2016, and for Nintendo Switch in
+                                December 2018. The story follows a fire lookout named Henry in the Shoshone National
+                                Forest, a year after the Yellowstone fires of 1988. A month after his first day at work,
+                                strange things begin happening to him and his supervisor Delilah, which connects to a
+                                conspired mystery that happened years ago.</p>
+                            <p><em>Made in Unity</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row game-slide">
+                        <div class="col-lg-3 game-img w-100 h-100">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/3/34/Monument_valley_2_icon.jpg"
+                                height="300px" width="300px">
+                        </div>
+                        <div class="col">
+                            <h4>Monument Valley 2</h4>
+                            <p>Monument Valley 2 is an indie puzzle game developed and published by Ustwo Games. It is
+                                the sequel to the 2014 game Monument Valley. It was released for iOS in June 2017, and
+                                released for Android in November 2017. Monument Valley 2 is presented in an isometric
+                                view. The goal is to guide Ro and her child through mazes that include elements of
+                                optical illusions and impossible objects. The player can tap on the screen to move
+                                either Ro or her child (depending on the chapter) or to trigger changes in the
+                                architecture of the level to complete the puzzle.</p>
+                            <p><em>Made in Unity</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row game-slide">
+                        <div class="col-lg-3 game-img w-100 h-100">
+                            <img src="https://gamespot1.cbsistatic.com/uploads/scale_tiny/536/5360430/2999667-untitled-2.jpg"
+                                height="300px" width="300px">
+                        </div>
+                        <div class="col">
+                            <h4>Assassin's Creed Identity</h4>
+                            <p>Assassin's Creed Identity is an action-adventure video game developed by Blue Byte and
+                                published by Ubisoft. It is the second mobile-exclusive game in the Assassin's Creed
+                                series to be released after Assassin's Creed Pirates, and the first on mobile to
+                                incorporate the third-person urban traversal-style gameplay as seen in the main console
+                                titles. It was initially soft-launched in 2014 as a free-to-play game for New Zealand
+                                and Australian App Stores. The game was released worldwide on iOS on 25 February 2016.
+                                The Android version released on 18 May 2016 along with a new DLC which is now available
+                                for both.</p>
+                            <p><em>Made in Unity</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#games-slide" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#games-slide" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#games-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#games-slide" data-slide-to="1"></li>
+                <li data-target="#games-slide" data-slide-to="2"></li>
+            </ol>
+        </div>
+
+    </div>
+
+    <!--JS scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
