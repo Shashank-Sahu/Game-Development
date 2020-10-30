@@ -121,3 +121,18 @@ video {
         list-style-type: none;
     }
 }
+
+@media (min-width:1000px) {
+    .toleft {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .box2 {
+        order: 2;
+    }
+
+    .box1 {
+        order: 1;
+    }
+}
