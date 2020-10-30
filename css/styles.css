@@ -105,3 +105,19 @@ video {
     text-align: center;
     margin: 20px;
 }
+
+/*******************************************Media Section*******************************************/
+
+@media (max-width:800px) {
+    .intro {
+        text-align: center;
+    }
+
+    .games {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
